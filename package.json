@@ -1,0 +1,26 @@
+{
+  "name": "currencydatajsonapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "-": "0.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.10",
+    "axios": "^0.27.2",
+    "iconv-lite": "^0.6.3",
+    "xml2js": "^0.4.23"
+  },
+  "type": "module"
+}
